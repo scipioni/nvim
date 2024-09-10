@@ -5,7 +5,9 @@ local options = {
         -- cpp = { "clang-format" },
         -- go = { "gofumpt", "goimports-reviser", "golines" },
         -- python = { "isort", "black" },
-        python = { "ruff" },
+        typescript = { { "prettierd", "prettier" } },
+        javascript = { { "prettierd", "prettier" } },
+        python = { "black" },
     },
 
     formatters = {

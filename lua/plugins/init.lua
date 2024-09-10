@@ -46,6 +46,17 @@ return {
     {
         "stevearc/conform.nvim",
         event = "BufWritePre",
+        --         keys = {
+        --             {
+        --                 -- Customize or remove this keymap to your liking
+        --                 "<leader>l",
+        --                 function()
+        --                     require("conform").format({ async = true })
+        --                 end,
+        --                 mode = "",
+        --                 desc = "Format buffer",
+        --             },
+        --         },
         config = function()
             require("configs.conform")
         end,
