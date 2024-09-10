@@ -10,11 +10,13 @@ lspconfig.servers = {
     -- "clangd",
     -- "gopls",
     "pyright",
+    "ts_ls",
 }
 
 -- list of servers configured with default config.
 local default_servers = {
     "pyright",
+    "ts_ls",
     -- "pylyzer",
 }
 
