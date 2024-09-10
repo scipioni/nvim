@@ -1,6 +1,10 @@
 ![Screenshot](screenshot.png)
 
 # Installing NvChad Version 2.5
+
+plugins:
+- https://github.com/LintaoAmons/bookmarks.nvim
+
 ## Backup and remove old nvim config.
 Backup old nvim config.
 ```

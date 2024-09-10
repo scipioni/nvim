@@ -16,6 +16,11 @@ lint.linters.luacheck.args = {
     "-",
 }
 
+lint.linters.flake8.args = {
+    "--max-line-length",
+    "120",
+}
+
 vim.api.nvim_create_autocmd({ "BufEnter", "BufWritePost", "InsertLeave" }, {
     callback = function()
         lint.try_lint()
