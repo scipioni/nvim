@@ -12,7 +12,7 @@ local options = {
         -- "gowork",
         "lua",
         "luadoc",
-        -- "make",
+        "make",
         "markdown",
         "printf",
         "python",
