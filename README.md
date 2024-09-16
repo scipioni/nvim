@@ -6,6 +6,7 @@ plugins:
 - https://neovimcraft.com
 - https://github.com/LintaoAmons/bookmarks.nvim
 - https://sgoel.dev/posts/switching-between-projects-in-neovim/
+- https://github.com/0x00-ketsu/autosave.nvim
 
 ## Backup and remove old nvim config.
 Backup old nvim config.
