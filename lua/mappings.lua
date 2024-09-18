@@ -14,6 +14,7 @@ map({ "n", "v" }, "mm", "<cmd>BookmarksMark<cr>", { desc = "Mark current line in
 map({ "n", "v" }, "mo", "<cmd>BookmarksGoto<cr>", { desc = "Go to bookmark at current active BookmarkList" })
 map({ "n", "v" }, "ma", "<cmd>BookmarksCommands<cr>", { desc = "Find and trigger a bookmark command." })
 map({ "n", "v" }, "mg", "<cmd>BookmarksGotoRecent<cr>", { desc = "Go to latest visited/created Bookmark" })
+map({ "n", "v" }, "<leader>wo", "<cmd>WorkspacesOpen<cr>", { desc = "Workspace open" })
 
 -- Yank into system clipboard
 map({ "n", "v" }, "<leader>y", '"+y') -- yank motion
