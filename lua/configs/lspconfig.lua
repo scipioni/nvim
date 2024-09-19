@@ -9,12 +9,14 @@ lspconfig.servers = {
     "lua_ls",
     "pyright",
     "ts_ls",
+    "angularls",
 }
 
 -- list of servers configured with default config (without lspconfig.servers)
 local default_servers = {
     "pyright",
     "ts_ls",
+    "angularls",
 }
 
 -- lsps with default config

@@ -7,6 +7,7 @@ local options = {
         -- python = { "isort", "black" },
         typescript = { { "prettierd", "prettier" } },
         javascript = { { "prettierd", "prettier" } },
+        html = { { "prettierd", "prettier" } },
         python = { "black" },
     },
 
