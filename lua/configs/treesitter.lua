@@ -10,6 +10,7 @@ local options = {
         -- "gosum",
         -- "gotmpl",
         -- "gowork",
+        "html",
         "lua",
         "luadoc",
         "make",
