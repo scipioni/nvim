@@ -8,7 +8,7 @@ local options = {
         typescript = { { "prettierd", "prettier" } },
         javascript = { { "prettierd", "prettier" } },
         html = { { "prettierd", "prettier" } },
-        python = { "black" },
+        python = { "ruff" },
     },
 
     formatters = {
