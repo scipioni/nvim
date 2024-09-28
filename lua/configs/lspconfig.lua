@@ -7,6 +7,7 @@ local lspconfig = require("lspconfig")
 -- list of all servers configured.
 lspconfig.servers = {
     "lua_ls",
+    "ruff",
     "pyright",
     "ts_ls",
     "angularls",
@@ -16,6 +17,7 @@ lspconfig.servers = {
 local default_servers = {
     "ts_ls",
     "angularls",
+    "ruff",
     "pyright",
 }
 
