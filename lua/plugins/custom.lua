@@ -16,6 +16,7 @@ local plugins = {
             },
             view = {
                 side = "left",
+                adaptive_size = true,
             },
         },
     },
