@@ -1,4 +1,4 @@
-require("nvchad.mappings")
+require "nvchad.mappings"
 -- add yours here
 
 local map = vim.keymap.set
@@ -27,8 +27,3 @@ map({ "n", "v" }, "<leader>D", '"+D') -- delete line
 -- Paste from system clipboard
 map("n", "<leader>p", '"+p') -- paste after cursor
 map("n", "<leader>P", '"+P') -- paste before cursor
--- map("", "<leader>l", function()
---    require("conform").format({ async = true, lsp_fallback = true })
--- end, { desc = "format document" })
-
--- map({ "n", "i", "v" }, "<C-s>", "<cmd> w <cr>")
