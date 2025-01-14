@@ -9,3 +9,10 @@ o.softtabstop = 4
 
 -- o.cursorlineopt ='both' -- to enable cursorline!
 vim.wo.relativenumber = true
+
+-- unnamedplus interfere with gpaste
+-- vim.opt.clipboard = { "unnamedplus" }
+vim.opt.clipboard = { }
+
+-- vim.o.mouse = 'a'
+
